@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Final Print</title>
+    <!-- Link to favicon -->
+    <link rel="icon" href="./graphic materials/growth.png" type="image/png">
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="background">
+        <div class="overlay">
+            <!-- Main heading -->
+            <h1 class="title">The Final Print</h1>
+            <!-- Audio player with correctly set path -->
+            <audio id="audioPlayer" src="./audiofile.mp3"></audio>
+        </div>
+        <!-- Audio controls container -->
+        <div class="audio-controls">
+            <!-- Play/Pause button -->
+            <button id="playPauseButton">Play</button>
+            <!-- Seek bar for audio progress -->
+            <input type="range" id="seekBar" class="seek-bar" value="0" max="100">
+            <!-- Mute button -->
+            <button id="muteButton">🔇</button>
+            <!-- Volume control slider -->
+            <input type="range" id="volumeControl" class="volume-bar" value="100" max="100">
+            <!-- Max volume button -->
+            <button id="volumeMaxButton">🔊</button>
+        </div>
+    </div>
+    <!-- Creator names section -->
+    <div class="creators">
+        <p>Ghaya | Alua | Srotosshini | Anastasiya</p>
+    </div>
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
